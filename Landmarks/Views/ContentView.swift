@@ -3,11 +3,14 @@ import SwiftUI
 
 struct ContentView: View {
     @State private var selection: Tab = .featured
+    
+    @State private var viewModel = ViewModel()
 
 
-    enum Tab {
+    enum Tab: String {
         case featured
         case list
+        case shot
     }
 
 
@@ -25,6 +28,12 @@ struct ContentView: View {
                     Label("List", systemImage: "list.bullet")
                 }
                 .tag(Tab.list)
+            
+            CameraView(image: $viewModel.currentFrame)
+                .tabItem {
+                    Label("Shot", systemImage: "camera")
+                }
+                .tag(Tab.shot)
         }
     }
 }

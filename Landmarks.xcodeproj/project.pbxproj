@@ -22,6 +22,12 @@
 		646EDD332BD6B6C8007BFE6C /* CategoryRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 646EDD322BD6B6C8007BFE6C /* CategoryRow.swift */; };
 		646EDD352BD6B723007BFE6C /* CategoryItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 646EDD342BD6B723007BFE6C /* CategoryItem.swift */; };
 		646EDD412BD7462B007BFE6C /* ProfileHost.swift in Sources */ = {isa = PBXBuildFile; fileRef = 646EDD402BD7462B007BFE6C /* ProfileHost.swift */; };
+		64A79CFA2C22C1A70031C921 /* ShotView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64A79CF92C22C1A70031C921 /* ShotView.swift */; };
+		64A79D022C22CB250031C921 /* CameraManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64A79D012C22CB250031C921 /* CameraManager.swift */; };
+		64A79D042C22CC060031C921 /* CMSampleBuffer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64A79D032C22CC060031C921 /* CMSampleBuffer.swift */; };
+		64A79D062C22CC1D0031C921 /* CIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64A79D052C22CC1D0031C921 /* CIImage.swift */; };
+		64A79D082C22CCC10031C921 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64A79D072C22CCC10031C921 /* ViewModel.swift */; };
+		64A79D0A2C22CD030031C921 /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64A79D092C22CD030031C921 /* CameraView.swift */; };
 		64BCC96E2BD748E40041937F /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64BCC96D2BD748E30041937F /* Profile.swift */; };
 		64BCC9702BD749110041937F /* ProfileSummary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64BCC96F2BD749110041937F /* ProfileSummary.swift */; };
 		64BCC9732BD749C40041937F /* HikeBadge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64BCC9722BD749C40041937F /* HikeBadge.swift */; };
@@ -61,6 +67,13 @@
 		646EDD322BD6B6C8007BFE6C /* CategoryRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryRow.swift; sourceTree = "<group>"; };
 		646EDD342BD6B723007BFE6C /* CategoryItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryItem.swift; sourceTree = "<group>"; };
 		646EDD402BD7462B007BFE6C /* ProfileHost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileHost.swift; sourceTree = "<group>"; };
+		64A79CF92C22C1A70031C921 /* ShotView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShotView.swift; sourceTree = "<group>"; };
+		64A79D012C22CB250031C921 /* CameraManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraManager.swift; sourceTree = "<group>"; };
+		64A79D032C22CC060031C921 /* CMSampleBuffer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CMSampleBuffer.swift; sourceTree = "<group>"; };
+		64A79D052C22CC1D0031C921 /* CIImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CIImage.swift; sourceTree = "<group>"; };
+		64A79D072C22CCC10031C921 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		64A79D092C22CD030031C921 /* CameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraView.swift; sourceTree = "<group>"; };
+		64A79D0B2C22CFFA0031C921 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		64BCC96D2BD748E30041937F /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
 		64BCC96F2BD749110041937F /* ProfileSummary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileSummary.swift; sourceTree = "<group>"; };
 		64BCC9722BD749C40041937F /* HikeBadge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HikeBadge.swift; sourceTree = "<group>"; };
@@ -130,6 +143,19 @@
 			path = Category;
 			sourceTree = "<group>";
 		};
+		64A79CF82C22C1870031C921 /* Shot */ = {
+			isa = PBXGroup;
+			children = (
+				64A79CF92C22C1A70031C921 /* ShotView.swift */,
+				64A79D012C22CB250031C921 /* CameraManager.swift */,
+				64A79D032C22CC060031C921 /* CMSampleBuffer.swift */,
+				64A79D052C22CC1D0031C921 /* CIImage.swift */,
+				64A79D072C22CCC10031C921 /* ViewModel.swift */,
+				64A79D092C22CD030031C921 /* CameraView.swift */,
+			);
+			path = Shot;
+			sourceTree = "<group>";
+		};
 		64BCC9712BD749290041937F /* Profiles */ = {
 			isa = PBXGroup;
 			children = (
@@ -169,6 +195,7 @@
 		64F44A862BD69E8F006FA4F5 /* Landmarks */ = {
 			isa = PBXGroup;
 			children = (
+				64A79D0B2C22CFFA0031C921 /* Info.plist */,
 				64F44A872BD69E8F006FA4F5 /* LandmarksApp.swift */,
 				64F44AA82BD6A18F006FA4F5 /* Model */,
 				64F44AA52BD6A0D2006FA4F5 /* Views */,
@@ -190,6 +217,7 @@
 		64F44AA52BD6A0D2006FA4F5 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				64A79CF82C22C1870031C921 /* Shot */,
 				64F44A892BD69E8F006FA4F5 /* ContentView.swift */,
 				64BCC9762BD74C800041937F /* PageView */,
 				64BCC9712BD749290041937F /* Profiles */,
@@ -317,6 +345,7 @@
 			files = (
 				646EDD332BD6B6C8007BFE6C /* CategoryRow.swift in Sources */,
 				646EDD1F2BD6B1EC007BFE6C /* HexagonParameters.swift in Sources */,
+				64A79CFA2C22C1A70031C921 /* ShotView.swift in Sources */,
 				646EDD312BD6B5FA007BFE6C /* CategoryHome.swift in Sources */,
 				646EDD1B2BD6AF95007BFE6C /* Badge.swift in Sources */,
 				64BCC9822BD74DCB0041937F /* FeatureCard.swift in Sources */,
@@ -327,13 +356,16 @@
 				64BCC9862BD74F4B0041937F /* PageControl.swift in Sources */,
 				646EDD212BD6B21B007BFE6C /* BadgeSymbol.swift in Sources */,
 				646EDD352BD6B723007BFE6C /* CategoryItem.swift in Sources */,
+				64A79D0A2C22CD030031C921 /* CameraView.swift in Sources */,
 				64F44A9C2BD69F6C006FA4F5 /* LandmarkList.swift in Sources */,
 				646EDD262BD6B2F7007BFE6C /* Hike.swift in Sources */,
 				64BCC9702BD749110041937F /* ProfileSummary.swift in Sources */,
+				64A79D022C22CB250031C921 /* CameraManager.swift in Sources */,
 				646EDD412BD7462B007BFE6C /* ProfileHost.swift in Sources */,
 				64F44A962BD69EB6006FA4F5 /* LandmarkDetail.swift in Sources */,
 				646EDD192BD6AF6D007BFE6C /* RotatedBadgeSymbol.swift in Sources */,
 				64F44A882BD69E8F006FA4F5 /* LandmarksApp.swift in Sources */,
+				64A79D082C22CCC10031C921 /* ViewModel.swift in Sources */,
 				64BCC9842BD74E250041937F /* PageView.swift in Sources */,
 				64BCC96E2BD748E40041937F /* Profile.swift in Sources */,
 				64BCC9752BD74B3F0041937F /* ProfileEditor.swift in Sources */,
@@ -344,8 +376,10 @@
 				646EDD152BD6AE44007BFE6C /* BadgeBackground.swift in Sources */,
 				64BCC9732BD749C40041937F /* HikeBadge.swift in Sources */,
 				64F44A9A2BD69F34006FA4F5 /* LandmarkRow.swift in Sources */,
+				64A79D062C22CC1D0031C921 /* CIImage.swift in Sources */,
 				64F44A982BD69EEE006FA4F5 /* FavoriteButton.swift in Sources */,
 				64F44A9E2BD69FA5006FA4F5 /* ModelData.swift in Sources */,
+				64A79D042C22CC060031C921 /* CMSampleBuffer.swift in Sources */,
 				64F44AA42BD6A06F006FA4F5 /* Landmark.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -483,6 +517,9 @@
 				DEVELOPMENT_TEAM = JQ3QUS47VP;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Landmarks/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Get the camera feed";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -512,6 +549,9 @@
 				DEVELOPMENT_TEAM = JQ3QUS47VP;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Landmarks/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Get the camera feed";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
