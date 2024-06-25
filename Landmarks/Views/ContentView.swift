@@ -11,6 +11,7 @@ struct ContentView: View {
         case featured
         case list
         case shot
+        case record
     }
 
 
@@ -34,6 +35,11 @@ struct ContentView: View {
                     Label("Shot", systemImage: "camera")
                 }
                 .tag(Tab.shot)
+            VideoRecorderView()
+                .tabItem {
+                    Label("Record", systemImage: "iphone.gen1.landscape")
+                }
+                .tag(Tab.record)
         }
     }
 }

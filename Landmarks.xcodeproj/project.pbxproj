@@ -22,7 +22,6 @@
 		646EDD332BD6B6C8007BFE6C /* CategoryRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 646EDD322BD6B6C8007BFE6C /* CategoryRow.swift */; };
 		646EDD352BD6B723007BFE6C /* CategoryItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 646EDD342BD6B723007BFE6C /* CategoryItem.swift */; };
 		646EDD412BD7462B007BFE6C /* ProfileHost.swift in Sources */ = {isa = PBXBuildFile; fileRef = 646EDD402BD7462B007BFE6C /* ProfileHost.swift */; };
-		64A79CFA2C22C1A70031C921 /* ShotView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64A79CF92C22C1A70031C921 /* ShotView.swift */; };
 		64A79D022C22CB250031C921 /* CameraManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64A79D012C22CB250031C921 /* CameraManager.swift */; };
 		64A79D042C22CC060031C921 /* CMSampleBuffer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64A79D032C22CC060031C921 /* CMSampleBuffer.swift */; };
 		64A79D062C22CC1D0031C921 /* CIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64A79D052C22CC1D0031C921 /* CIImage.swift */; };
@@ -36,6 +35,11 @@
 		64BCC9822BD74DCB0041937F /* FeatureCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64BCC9812BD74DCB0041937F /* FeatureCard.swift */; };
 		64BCC9842BD74E250041937F /* PageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64BCC9832BD74E250041937F /* PageView.swift */; };
 		64BCC9862BD74F4B0041937F /* PageControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64BCC9852BD74F4B0041937F /* PageControl.swift */; };
+		64C41A562C2A992200FF4649 /* VideoRecorderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64C41A552C2A992200FF4649 /* VideoRecorderViewController.swift */; };
+		64C41A5A2C2A9CA500FF4649 /* VideoRecorderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64C41A592C2A9CA500FF4649 /* VideoRecorderView.swift */; };
+		64C41A5C2C2AB62200FF4649 /* MeasureContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64C41A5B2C2AB62200FF4649 /* MeasureContent.swift */; };
+		64C41A5F2C2AB68F00FF4649 /* MeasureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64C41A5E2C2AB68F00FF4649 /* MeasureView.swift */; };
+		64C41A612C2AB6B700FF4649 /* Recording.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64C41A602C2AB6B700FF4649 /* Recording.swift */; };
 		64F44A882BD69E8F006FA4F5 /* LandmarksApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F44A872BD69E8F006FA4F5 /* LandmarksApp.swift */; };
 		64F44A8A2BD69E8F006FA4F5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F44A892BD69E8F006FA4F5 /* ContentView.swift */; };
 		64F44A8C2BD69E90006FA4F5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64F44A8B2BD69E90006FA4F5 /* Assets.xcassets */; };
@@ -67,7 +71,6 @@
 		646EDD322BD6B6C8007BFE6C /* CategoryRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryRow.swift; sourceTree = "<group>"; };
 		646EDD342BD6B723007BFE6C /* CategoryItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryItem.swift; sourceTree = "<group>"; };
 		646EDD402BD7462B007BFE6C /* ProfileHost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileHost.swift; sourceTree = "<group>"; };
-		64A79CF92C22C1A70031C921 /* ShotView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShotView.swift; sourceTree = "<group>"; };
 		64A79D012C22CB250031C921 /* CameraManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraManager.swift; sourceTree = "<group>"; };
 		64A79D032C22CC060031C921 /* CMSampleBuffer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CMSampleBuffer.swift; sourceTree = "<group>"; };
 		64A79D052C22CC1D0031C921 /* CIImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CIImage.swift; sourceTree = "<group>"; };
@@ -82,6 +85,11 @@
 		64BCC9812BD74DCB0041937F /* FeatureCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeatureCard.swift; sourceTree = "<group>"; };
 		64BCC9832BD74E250041937F /* PageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageView.swift; sourceTree = "<group>"; };
 		64BCC9852BD74F4B0041937F /* PageControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageControl.swift; sourceTree = "<group>"; };
+		64C41A552C2A992200FF4649 /* VideoRecorderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoRecorderViewController.swift; sourceTree = "<group>"; };
+		64C41A592C2A9CA500FF4649 /* VideoRecorderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoRecorderView.swift; sourceTree = "<group>"; };
+		64C41A5B2C2AB62200FF4649 /* MeasureContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeasureContent.swift; sourceTree = "<group>"; };
+		64C41A5E2C2AB68F00FF4649 /* MeasureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeasureView.swift; sourceTree = "<group>"; };
+		64C41A602C2AB6B700FF4649 /* Recording.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recording.swift; sourceTree = "<group>"; };
 		64F44A842BD69E8F006FA4F5 /* Landmarks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Landmarks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		64F44A872BD69E8F006FA4F5 /* LandmarksApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarksApp.swift; sourceTree = "<group>"; };
 		64F44A892BD69E8F006FA4F5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -146,7 +154,6 @@
 		64A79CF82C22C1870031C921 /* Shot */ = {
 			isa = PBXGroup;
 			children = (
-				64A79CF92C22C1A70031C921 /* ShotView.swift */,
 				64A79D012C22CB250031C921 /* CameraManager.swift */,
 				64A79D032C22CC060031C921 /* CMSampleBuffer.swift */,
 				64A79D052C22CC1D0031C921 /* CIImage.swift */,
@@ -174,6 +181,24 @@
 				64BCC9852BD74F4B0041937F /* PageControl.swift */,
 			);
 			path = PageView;
+			sourceTree = "<group>";
+		};
+		64C41A542C2A98F800FF4649 /* VideoRecord */ = {
+			isa = PBXGroup;
+			children = (
+				64C41A552C2A992200FF4649 /* VideoRecorderViewController.swift */,
+				64C41A592C2A9CA500FF4649 /* VideoRecorderView.swift */,
+			);
+			path = VideoRecord;
+			sourceTree = "<group>";
+		};
+		64C41A5D2C2AB65600FF4649 /* MeasureView */ = {
+			isa = PBXGroup;
+			children = (
+				64C41A5E2C2AB68F00FF4649 /* MeasureView.swift */,
+				64C41A602C2AB6B700FF4649 /* Recording.swift */,
+			);
+			path = MeasureView;
 			sourceTree = "<group>";
 		};
 		64F44A7B2BD69E8F006FA4F5 = {
@@ -217,8 +242,11 @@
 		64F44AA52BD6A0D2006FA4F5 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				64A79CF82C22C1870031C921 /* Shot */,
 				64F44A892BD69E8F006FA4F5 /* ContentView.swift */,
+				64C41A5B2C2AB62200FF4649 /* MeasureContent.swift */,
+				64C41A5D2C2AB65600FF4649 /* MeasureView */,
+				64C41A542C2A98F800FF4649 /* VideoRecord */,
+				64A79CF82C22C1870031C921 /* Shot */,
 				64BCC9762BD74C800041937F /* PageView */,
 				64BCC9712BD749290041937F /* Profiles */,
 				646EDD392BD743BE007BFE6C /* Category */,
@@ -345,14 +373,15 @@
 			files = (
 				646EDD332BD6B6C8007BFE6C /* CategoryRow.swift in Sources */,
 				646EDD1F2BD6B1EC007BFE6C /* HexagonParameters.swift in Sources */,
-				64A79CFA2C22C1A70031C921 /* ShotView.swift in Sources */,
 				646EDD312BD6B5FA007BFE6C /* CategoryHome.swift in Sources */,
 				646EDD1B2BD6AF95007BFE6C /* Badge.swift in Sources */,
+				64C41A5C2C2AB62200FF4649 /* MeasureContent.swift in Sources */,
 				64BCC9822BD74DCB0041937F /* FeatureCard.swift in Sources */,
 				64F44A8A2BD69E8F006FA4F5 /* ContentView.swift in Sources */,
 				646EDD2C2BD6B391007BFE6C /* GraphCapsule.swift in Sources */,
 				646EDD2E2BD6B391007BFE6C /* HikeGraph.swift in Sources */,
 				64F44AA02BD6A016006FA4F5 /* MapView.swift in Sources */,
+				64C41A5F2C2AB68F00FF4649 /* MeasureView.swift in Sources */,
 				64BCC9862BD74F4B0041937F /* PageControl.swift in Sources */,
 				646EDD212BD6B21B007BFE6C /* BadgeSymbol.swift in Sources */,
 				646EDD352BD6B723007BFE6C /* CategoryItem.swift in Sources */,
@@ -361,7 +390,10 @@
 				646EDD262BD6B2F7007BFE6C /* Hike.swift in Sources */,
 				64BCC9702BD749110041937F /* ProfileSummary.swift in Sources */,
 				64A79D022C22CB250031C921 /* CameraManager.swift in Sources */,
+				64C41A612C2AB6B700FF4649 /* Recording.swift in Sources */,
+				64C41A562C2A992200FF4649 /* VideoRecorderViewController.swift in Sources */,
 				646EDD412BD7462B007BFE6C /* ProfileHost.swift in Sources */,
+				64C41A5A2C2A9CA500FF4649 /* VideoRecorderView.swift in Sources */,
 				64F44A962BD69EB6006FA4F5 /* LandmarkDetail.swift in Sources */,
 				646EDD192BD6AF6D007BFE6C /* RotatedBadgeSymbol.swift in Sources */,
 				64F44A882BD69E8F006FA4F5 /* LandmarksApp.swift in Sources */,
@@ -518,7 +550,10 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Landmarks/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "";
 				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSCameraUsageDescription = "We need access to the camera for recording video.";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "We need access to the microphone for recording audio.";
 				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Get the camera feed";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -550,7 +585,10 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Landmarks/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "";
 				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSCameraUsageDescription = "We need access to the camera for recording video.";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "We need access to the microphone for recording audio.";
 				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Get the camera feed";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
