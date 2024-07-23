@@ -40,6 +40,7 @@
 		64C41A5C2C2AB62200FF4649 /* MeasureContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64C41A5B2C2AB62200FF4649 /* MeasureContent.swift */; };
 		64C41A5F2C2AB68F00FF4649 /* MeasureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64C41A5E2C2AB68F00FF4649 /* MeasureView.swift */; };
 		64C41A612C2AB6B700FF4649 /* Recording.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64C41A602C2AB6B700FF4649 /* Recording.swift */; };
+		64CF17AA2C4795000054C02F /* MeasureNewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64CF17A92C4795000054C02F /* MeasureNewView.swift */; };
 		64F44A882BD69E8F006FA4F5 /* LandmarksApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F44A872BD69E8F006FA4F5 /* LandmarksApp.swift */; };
 		64F44A8A2BD69E8F006FA4F5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F44A892BD69E8F006FA4F5 /* ContentView.swift */; };
 		64F44A8C2BD69E90006FA4F5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64F44A8B2BD69E90006FA4F5 /* Assets.xcassets */; };
@@ -90,6 +91,7 @@
 		64C41A5B2C2AB62200FF4649 /* MeasureContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeasureContent.swift; sourceTree = "<group>"; };
 		64C41A5E2C2AB68F00FF4649 /* MeasureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeasureView.swift; sourceTree = "<group>"; };
 		64C41A602C2AB6B700FF4649 /* Recording.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recording.swift; sourceTree = "<group>"; };
+		64CF17A92C4795000054C02F /* MeasureNewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeasureNewView.swift; sourceTree = "<group>"; };
 		64F44A842BD69E8F006FA4F5 /* Landmarks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Landmarks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		64F44A872BD69E8F006FA4F5 /* LandmarksApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarksApp.swift; sourceTree = "<group>"; };
 		64F44A892BD69E8F006FA4F5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -197,6 +199,7 @@
 			children = (
 				64C41A5E2C2AB68F00FF4649 /* MeasureView.swift */,
 				64C41A602C2AB6B700FF4649 /* Recording.swift */,
+				64CF17A92C4795000054C02F /* MeasureNewView.swift */,
 			);
 			path = MeasureView;
 			sourceTree = "<group>";
@@ -400,6 +403,7 @@
 				64A79D082C22CCC10031C921 /* ViewModel.swift in Sources */,
 				64BCC9842BD74E250041937F /* PageView.swift in Sources */,
 				64BCC96E2BD748E40041937F /* Profile.swift in Sources */,
+				64CF17AA2C4795000054C02F /* MeasureNewView.swift in Sources */,
 				64BCC9752BD74B3F0041937F /* ProfileEditor.swift in Sources */,
 				646EDD2D2BD6B391007BFE6C /* HikeDetail.swift in Sources */,
 				646EDD2F2BD6B391007BFE6C /* HikeView.swift in Sources */,
