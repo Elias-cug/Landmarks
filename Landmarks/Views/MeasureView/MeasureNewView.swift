@@ -5,46 +5,63 @@ struct MeasureNewView: View {
     // @StateObject 是 SwiftUI 中用于管理状态对象的属性包装器。它负责创建和管理对象的生命周期，并确保视图在状态对象的属性发生变化时自动更新
     // 这里订阅了 VideoRecorderManager 中的isRecording和recordingTime属性，当属性发生改变时，触发视图更新
     @StateObject private var videoRecorderManager = VideoRecorderManager()
-    
     var body: some View {
-        // ZStack 是 SwiftUI 中的一种布局容器，它允许你将多个视图堆叠在一起，创建一个层叠视图的效果。
-        // 每个子视图按顺序添加到堆栈中，最先添加的视图在最底层，最后添加的视图在最顶层。是 z 轴方向的堆叠
-        ZStack {
-            CameraPreviewView(session: videoRecorderManager.session)
-                .edgesIgnoringSafeArea(.all)
-            
-            VStack {
-                Spacer()
-                
-                if videoRecorderManager.isRecording {
-                    Text(videoRecorderManager.recordingTime)
-                        .foregroundColor(.red)
-                        .padding()
-                        .background(Color.black.opacity(0.7))
-                        .cornerRadius(10)
-                        .padding(.bottom, 50)
-                }
-                
-                Button(action: {
-                    if videoRecorderManager.isRecording {
-                        videoRecorderManager.stopRecording()
-                    } else {
-                        videoRecorderManager.startRecording()
+            ZStack {
+                CameraPreviewView(session: videoRecorderManager.session)
+                    .edgesIgnoringSafeArea(.all)
+                VStack {
+                    VStack {
+                        Text(videoRecorderManager.recordingTime)
+                            .foregroundColor(.red)
+                            .padding()
+                            .background(Color.black.opacity(0.7))
+                            .cornerRadius(10)
+                            .rotationEffect(.degrees(90))
+                        Spacer()
+                        Text("投篮次数：90")
+                            .foregroundColor(.red)
+                            .padding()
+                            .background(Color.black.opacity(0.7))
+                            .cornerRadius(10)
+                            .rotationEffect(.degrees(90))
+                        Spacer()
+                        Text("命中率：90%")
+                            .foregroundColor(.red)
+                            .padding()
+                            .background(Color.black.opacity(0.7))
+                            .cornerRadius(10)
+                            .rotationEffect(.degrees(90))
                     }
-                }) {
-                    Text(videoRecorderManager.isRecording ? "停止录制" : "开始录制")
-                        .padding()
-                        .background(Color.blue)
-                        .foregroundColor(.white)
-                        .cornerRadius(10)
+                    .padding(.horizontal, -50)
+                    .frame(maxWidth: .infinity, alignment: .trailing)
+                    Spacer()
                 }
-                .padding(.bottom, 50)
+                .padding()
+
+                HStack {
+                    Button(action: {
+                        if videoRecorderManager.isRecording {
+                            videoRecorderManager.stopRecording()
+                        } else {
+                            videoRecorderManager.startRecording()
+                        }
+                    }) {
+                        Text(videoRecorderManager.isRecording ? "停止录制" : "开始录制")
+                            .padding()
+                            .background(Color.blue)
+                            .foregroundColor(.white)
+                            .cornerRadius(10)
+                    }
+                }
+                .rotationEffect(.init(degrees: 90))
+                .frame(maxWidth: .infinity, alignment: .leading)
+                .padding()
+            }
+            .onAppear {
+                UIDevice.current.setValue(UIInterfaceOrientation.landscapeLeft.rawValue, forKey: "orientation")
+                videoRecorderManager.checkPermissions()
             }
         }
-        .onAppear {
-            videoRecorderManager.checkPermissions()
-        }
-    }
 }
 
 class VideoRecorderManager: NSObject, ObservableObject, AVCaptureVideoDataOutputSampleBufferDelegate, AVCaptureFileOutputRecordingDelegate {
@@ -186,3 +203,6 @@ struct CameraPreviewView: UIViewRepresentable {
     }
 }
 
+#Preview {
+    MeasureNewView()
+}
