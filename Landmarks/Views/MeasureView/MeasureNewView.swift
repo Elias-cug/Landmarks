@@ -156,6 +156,7 @@ class VideoRecorderManager: NSObject, ObservableObject, AVCaptureVideoDataOutput
             let uiImage = UIImage(cgImage: cgImage)
             // 在这里可以使用 `uiImage` 进行进一步处理或显示
             print("Frame captured: \(uiImage)")
+            print(type(of: uiImage))
         }
     }
     
